@@ -1,4 +1,4 @@
-<p align="center"><h1>chrome-iframe-sheet</h1></p>
+<h1 align="center">chrome-iframe-sheet</h1>
 <p align="center">
 <strong>Easiest way to embed an iframe via chrome extension</strong>
 <br>
