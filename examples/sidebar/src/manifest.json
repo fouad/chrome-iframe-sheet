@@ -1,0 +1,23 @@
+{
+  "name": "Chrome iFrame Sheet Sidebar",
+  "version": "0.1.0",
+  "description": "Example chrome extension to showcase an iframe sheet.",
+  "web_accessible_resources": ["entry.js"],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Chrome iFrame Sheet Sidebar"
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking"
+  ]
+}

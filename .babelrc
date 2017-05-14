@@ -1,0 +1,21 @@
+{
+  "passPerPreset": true,
+  "presets": [
+    "react",
+    "es2015",
+    "node6-es6",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "es2015",
+        "./babel"
+       ]
+    }
+  }
+}
